@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "downloaded_footprints") (type "KiCad") (uri "C:/Users/lxsam/Downloads/MF-R050") (options "") (descr ""))
+	(lib (name "downloaded_footprints") (type "KiCad") (uri "${KIPRJMOD}/LIBRARIES/MF-R050") (options "") (descr ""))
 )
