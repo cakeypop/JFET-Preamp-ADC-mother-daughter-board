@@ -1,0 +1,47 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "32277d68-1eba-4963-81c0-9753bbe67849")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 0 0)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7a893922-4a26-4218-912f-8bb60bebfa2a")
+		(property "Sheetname" "daughter"
+			(at 0 -0.7116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "daughter.kicad_sch"
+			(at 0 4.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+	)
+)
