@@ -628,17 +628,17 @@
     "top_level_sheets": [
       {
         "filename": "daughter.kicad_sch",
-        "name": "daughter",
-        "uuid": "7a893922-4a26-4218-912f-8bb60bebfa2a"
+        "name": "",
+        "uuid": "17cdfba3-e93c-4ecb-8cde-29ebdfd88a24"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R101,J101-103,#FLG201-204,D101,#PWR201-211,C101-113,U101",
     "variants": []
   },
   "sheets": [
     [
-      "7a893922-4a26-4218-912f-8bb60bebfa2a",
-      "daughter"
+      "17cdfba3-e93c-4ecb-8cde-29ebdfd88a24",
+      ""
     ]
   ],
   "text_variables": {},
