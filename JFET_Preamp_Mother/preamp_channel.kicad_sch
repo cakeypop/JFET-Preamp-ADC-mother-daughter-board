@@ -2146,7 +2146,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MMBZ27VALT1G:SOT95P237X111-3N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 97.79 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3806,7 +3806,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MMBZ27VALT1G:SOT95P237X111-3N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
