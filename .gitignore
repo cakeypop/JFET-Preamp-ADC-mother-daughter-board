@@ -8,3 +8,5 @@ _autosave-*
 .DS_Store
 Thumbs.db
 "*.lck" 
+"*.lck" 
+"*.lck" 
