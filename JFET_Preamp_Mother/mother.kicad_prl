@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "auvrecover.kicad_prl",
+    "filename": "mother.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,16 +92,16 @@
       9
     ],
     "col_widths": [
-      186,
-      171,
-      113,
-      79,
-      113,
-      113,
-      113,
-      83,
-      113,
-      113
+      93,
+      86,
+      75,
+      60,
+      65,
+      76,
+      66,
+      63,
+      57,
+      57
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

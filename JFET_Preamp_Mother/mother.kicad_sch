@@ -2243,12 +2243,6 @@
 		(uuid "2f3b9683-24b1-4564-bc8c-5d61004f5655")
 	)
 	(junction
-		(at 114.3 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31e4a880-b212-4856-8f27-83ed40f7e206")
-	)
-	(junction
 		(at 157.48 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2289,6 +2283,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd10ed2a-48af-4f3a-9422-9d086845aae2")
+	)
+	(junction
+		(at 114.3 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c24ea6ba-8431-4e1d-957d-b3bafd9ff521")
 	)
 	(junction
 		(at 119.38 30.48)
@@ -2446,13 +2446,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 29.21) (xy 114.3 30.48)
+			(xy 114.3 20.32) (xy 114.3 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "41731375-5f55-45bc-9dc2-9435458fd06b")
+	)
+	(wire
+		(pts
+			(xy 114.3 29.21) (xy 114.3 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477ed795-0d47-4169-a6ad-bef804a0ebb4")
 	)
 	(wire
 		(pts
@@ -3514,6 +3524,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 114.3 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a151906-cf08-4763-896f-4f35d149b1b5")
+		(property "Reference" "R102"
+			(at 115.824 24.384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 115.824 26.162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.522 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3f407979-ea7a-441e-926c-e8d6efa007bc")
+		)
+		(pin "1"
+			(uuid "cf7d0047-9691-43c1-98df-4b5c8738267c")
+		)
+		(instances
+			(project "mother"
+				(path "/7a893922-4a26-4218-912f-8bb60bebfa2a"
+					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 121.92 29.21 0)
 		(unit 1)
@@ -3602,7 +3693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52b1f175-648c-4f32-9b30-8be83bab5d24")
-		(property "Reference" "R102"
+		(property "Reference" "R103"
 			(at 104.14 26.162 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3664,7 +3755,7 @@
 		(instances
 			(project "mother"
 				(path "/7a893922-4a26-4218-912f-8bb60bebfa2a"
-					(reference "R102")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -4085,7 +4176,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 114.3 29.21 0)
+		(at 114.3 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4095,7 +4186,7 @@
 		(dnp no)
 		(uuid "b0335a23-c2a0-4da3-b371-4212cf5ec16b")
 		(property "Reference" "#PWR0101"
-			(at 114.3 33.02 0)
+			(at 114.3 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +4197,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 114.3 25.4 0)
+			(at 114.3 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4116,7 +4207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 29.21 0)
+			(at 114.3 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,7 +4218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 29.21 0)
+			(at 114.3 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4138,7 +4229,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 114.3 29.21 0)
+			(at 114.3 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
