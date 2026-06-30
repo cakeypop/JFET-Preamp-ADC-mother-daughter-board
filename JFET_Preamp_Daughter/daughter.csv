@@ -1,0 +1,8 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","LCSC Part #"
+"C101,C104,C105,C106,C107,C108,C109,C110,C111,C112","10","10u","","","","Capacitor_SMD:C_0402_1005Metric","","C15525"
+"C102,C103","2","0.1u","","","","Capacitor_SMD:C_0402_1005Metric","","C1525 "
+"C113","1","2.2u","","","","Capacitor_SMD:C_0402_1005Metric","","C12530"
+"D101","1","LED","","","","LED_SMD:LED_0603_1608Metric","","C2286"
+"R101","1","1k","","","","Resistor_SMD:R_0603_1608Metric","","C21190"
+"R102,R103","2","0","","","","Resistor_SMD:R_0603_1608Metric","","C21189"
+"U101","1","PCM1865DBTR","","","","Package_SO:TSSOP-30_4.4x7.8mm_P0.5mm","https://www.ti.com/lit/ds/symlink/pcm1864.pdf","C181312"
