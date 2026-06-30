@@ -3194,6 +3194,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C545374"
+			(at 160.02 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1b7b79a6-4bd7-44ca-b6a8-3cc943a536c2")
 		)
@@ -3369,7 +3380,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3419,6 +3430,17 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 175.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 175.26 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3507,6 +3529,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C148226"
+			(at 140.97 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a85d0c53-78e6-4350-95c1-acbf392b1359")
 		)
@@ -3578,6 +3611,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 116.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C21189"
 			(at 116.84 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3747,6 +3791,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C25803"
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e9efd833-990b-4748-a83f-85cae49999b8")
 		)
@@ -3817,6 +3872,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 106.68 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25999"
+			(at 106.68 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4064,6 +4130,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C15127"
+			(at 165.1 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba09f09c-5208-487a-9bcb-6ce8972eecba")
 		)
@@ -4165,7 +4242,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4215,6 +4292,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 132.08 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4400,7 +4488,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4450,6 +4538,17 @@
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 76.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 76.2 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4619,6 +4718,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C15849"
 			(at 121.92 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4874,6 +4984,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2286"
+			(at 102.87 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "65a43431-17dc-4182-9bd3-6d15a49cb650")
 		)
@@ -5032,6 +5153,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C14663"
+			(at 111.76 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4336d278-9d78-4df3-a48d-6c0525c120a7")
 		)
@@ -5053,7 +5185,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5113,6 +5245,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 186.69 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "384835b4-0060-4fac-83a4-b0343e41f454")
 		)
@@ -5134,7 +5277,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5184,6 +5327,17 @@
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 78.74 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 78.74 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
