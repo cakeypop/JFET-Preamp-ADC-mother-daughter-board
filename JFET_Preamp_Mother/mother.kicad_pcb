@@ -121,9 +121,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber_Plot_6-30-2026/")
 		)
 	)
 	(footprint "Connector_Audio:Jack_XLR_Neutrik_NC3FAH1_Horizontal"
@@ -84533,35 +84533,10 @@
 		(layer "Edge.Cuts")
 		(uuid "ba891072-f00c-499d-aff2-41c7522e85e6")
 	)
-	(gr_text "5/3/2026"
-		(at 206.25 194 0)
-		(layer "F.Cu")
-		(uuid "05939357-20bf-4d09-beb0-cb7b00b0ace6")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "PWR STATUS\n"
 		(at 106.5 34.5 0)
 		(layer "F.SilkS")
 		(uuid "9e6eac23-8d5f-4a3c-ac89-cab16e4b1952")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "JFET Preamp with ADC Motherboard					By Lucas Samaniego"
-		(at 190 190 0)
-		(layer "F.SilkS")
-		(uuid "286a59ff-6f4a-46db-989f-0bd728872f60")
 		(effects
 			(font
 				(size 1 1)
