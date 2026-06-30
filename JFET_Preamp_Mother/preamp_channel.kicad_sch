@@ -1050,6 +1050,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "5/3/2026\n"
+		(exclude_from_sim no)
+		(at 124.46 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b0307b84-2575-4ae2-8008-9d308ebbd66b")
+	)
+	(text "JFET Preamp Channel				By Lucas Samaniego"
+		(exclude_from_sim no)
+		(at 129.794 127.762 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6a65924-8b30-4c10-8c93-12d258e960c7")
+	)
 	(junction
 		(at 129.54 53.34)
 		(diameter 0)
