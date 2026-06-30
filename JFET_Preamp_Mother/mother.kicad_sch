@@ -2243,22 +2243,22 @@
 		(uuid "eaf91f14-97b7-4a42-9ab8-58b9d5425612")
 	)
 	(junction
-		(at 157.48 30.48)
+		(at 179.07 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d537d9b-07fa-48f6-88eb-f66b9e25d315")
+		(uuid "2f3b9683-24b1-4564-bc8c-5d61004f5655")
 	)
 	(junction
 		(at 162.56 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "263d5bda-5ff6-4de1-8c9a-f942d27c3967")
+		(uuid "307247c5-6b22-4061-b637-19687c96398b")
 	)
 	(junction
-		(at 179.07 30.48)
+		(at 157.48 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2f3b9683-24b1-4564-bc8c-5d61004f5655")
+		(uuid "3985aea2-f190-49da-91b9-116adadf76ab")
 	)
 	(junction
 		(at 114.3 20.32)
@@ -2397,16 +2397,6 @@
 			(type default)
 		)
 		(uuid "2fee76d3-89cb-4de4-ab78-c118b55b2643")
-	)
-	(wire
-		(pts
-			(xy 157.48 39.37) (xy 162.56 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fff0fd0-25f8-4797-88cc-cab36ef225aa")
 	)
 	(wire
 		(pts
@@ -2620,6 +2610,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 39.37) (xy 162.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2366b2-6f93-43b1-aa0a-d71d9fb7f08c")
+	)
+	(wire
+		(pts
 			(xy 121.92 29.21) (xy 121.92 30.48)
 		)
 		(stroke
@@ -2657,16 +2657,6 @@
 			(type default)
 		)
 		(uuid "a02a0095-e57f-4e5c-8559-a0ecf54c6070")
-	)
-	(wire
-		(pts
-			(xy 157.48 31.75) (xy 157.48 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2d30e0b-1f2e-4ffc-bdaf-3fdba8ea8255")
 	)
 	(wire
 		(pts
@@ -2800,6 +2790,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 38.1) (xy 157.48 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89a67dc-4a01-4a0e-843b-fa3800b667de")
+	)
+	(wire
+		(pts
 			(xy 43.18 80.01) (xy 41.91 80.01)
 		)
 		(stroke
@@ -2907,6 +2907,16 @@
 			(justify left bottom)
 		)
 		(uuid "3af025b9-c012-4961-a273-0b967c8ada4c")
+	)
+	(label "Q101_Drain"
+		(at 143.51 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d531cfb-51ef-4123-a939-bace19a31bd5")
 	)
 	(label "CH4_GND"
 		(at 43.18 29.21 0)
@@ -3100,7 +3110,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZV55C27")
-		(at 157.48 35.56 270)
+		(at 157.48 34.29 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3110,7 +3120,7 @@
 		(dnp no)
 		(uuid "074dde06-e404-47cc-8fd9-c27354b86575")
 		(property "Reference" "D101"
-			(at 155.702 36.322 90)
+			(at 155.702 35.052 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3121,7 +3131,7 @@
 			)
 		)
 		(property "Value" "BZV55C27"
-			(at 157.226 38.354 90)
+			(at 157.226 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3132,7 +3142,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 153.035 35.56 0)
+			(at 153.035 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3153,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 157.48 35.56 0)
+			(at 157.48 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3154,7 +3164,7 @@
 			)
 		)
 		(property "Description" "27V, 500mW, 5%, Zener diode, MiniMELF"
-			(at 157.48 35.56 0)
+			(at 157.48 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
